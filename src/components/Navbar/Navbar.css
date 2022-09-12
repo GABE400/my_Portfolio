@@ -1,0 +1,144 @@
+.logo {
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 32px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  color: black;
+  filter: drop-shadow(0.75em 0.75em 0.5em);
+  background: transparent;
+}
+
+.navbar.active {
+  background: var(--color-blue);
+  transition: 0.3s ease-in-out;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 75%;
+  color: var(--color-light);
+}
+
+.nav-links::after {
+  content: '';
+  position: absolute;
+  background-color: #000000;
+  height: 3px;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding-bottom: 0.25rem;
+  margin: 0 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.links::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  width: 0;
+  background: #76b852; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8dc26f,
+    #76b852
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8dc26f,
+    #76b852
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition: width 0.25s ease-out;
+}
+
+.links:hover::before {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+
+.link.active {
+  color: #11998e;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+
+  .navbar {
+    background: #6086b8;
+    border: 0;
+    box-shadow: 0.75em 0.75em 0.5em;
+    filter: none;
+  }
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: #6086b8;
+    left: 0;
+    top: 75px;
+    transition: all 0.5s ease-out;
+    width: 100%;
+    z-index: 2;
+    box-shadow: 0.75em 0.75em 0.5em black;
+  }
+
+  .links {
+    color: #ffffff;
+    text-align: center;
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+
+  .links::before {
+    display: none;
+  }
+
+  .links:hover {
+    background: var(--color-blue);
+    transition-duration: 0.5;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #6086b8;
+    border: none;
+    outline: none;
+    top: 15px;
+    right: 25px;
+  }
+}
