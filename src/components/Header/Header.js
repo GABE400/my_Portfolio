@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import './Header.css';
 import ShapePng from '../../images/shape.png';
+import Chair from '../../images/chair.png';
 import MePng from '../../images/imgMeGB4.png';
 import LaptopPng from '../../images/laptop.png';
 import Typewriter from 'typewriter-effect';
@@ -84,6 +85,7 @@ const Header = () => {
             <div className='column-left'>
               <div className='profileImages'>
                 <img src={ShapePng} className='shape' alt='shape' />
+                <img src={Chair} className='chair' alt='chair' />
                 <img src={MePng} className='gabe' alt='gabriel' />
                 <img src={LaptopPng} className='laptop' alt='laptop' />
               </div>
