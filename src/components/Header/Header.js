@@ -31,9 +31,11 @@ const Header = () => {
                   </span>
                 </h1>
                 <p>
-                  Welcome to my official portfolio website. Im a developer, get
-                  to know about me. My occupation is in web/mobile design and
-                  development
+                  I am a full stack developer. This means in development of a
+                  Website, Progressive Web App, Web Application, Desktop
+                  Application and Mobile Application. I can work with the
+                  frontend or the backend or i can work with both. Find out more
+                  about me..
                 </p>
                 <Link
                   to='about'

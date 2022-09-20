@@ -48,6 +48,17 @@ header {
   font-weight: 900;
   color: #2c5364;
 }
+.details p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: normal;
+  word-break: normal;
+  letter-spacing: 1px;
+  line-height: 28px;
+  color: #2c5364;
+  max-width: 590px;
+}
 
 span {
   color: #2c3e50;
@@ -239,6 +250,10 @@ span {
   }
 
   .socialMedia {
+    display: none;
+  }
+
+  .details .btnClick {
     display: none;
   }
 }

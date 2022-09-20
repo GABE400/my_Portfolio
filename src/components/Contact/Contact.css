@@ -93,6 +93,10 @@ form button:hover {
   display: none;
 }
 
+.contact .btnCv:hover {
+  background: var(--color-blue);
+}
+
 @media only screen and (max-width: 500px) {
   /* For mobile phones: */
   .container-contact {
