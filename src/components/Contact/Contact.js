@@ -8,17 +8,15 @@ const Contact = () => {
       <div className='contact-box'>
         <p className='title'>Hire Me</p>
         <p className='text'>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English.
+          Get in touch with me if you want to hire me in your company. I am also
+          a freelancer, get in touch with me if you need a Website, Web App or
+          Mobile App. Let us connect.
         </p>
         <div className='container-contact'>
           <div className='info'>
             <div className='location'>
               <i className='fa-solid fa-location-dot'></i>
-              <p>House No. 1890, Street No. 45Rz, City Blocks</p>
+              <p>Lusaka, Zambia</p>
             </div>
             <div className='email'>
               <i className='fa-solid fa-envelope'></i>

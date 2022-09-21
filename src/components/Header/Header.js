@@ -52,19 +52,19 @@ const Header = () => {
               <div className='socialMedia'>
                 <ul>
                   <li>
-                    <a href='/'>
+                    <a href='https://www.facebook.com/GabbyChipaya'>
                       <i className='fab fa-facebook-f'></i>
                       <span>Facebook</span>
                     </a>
                   </li>
                   <li>
-                    <a href='/'>
+                    <a href='https://www.instagram.com/chipayagabriel/'>
                       <i className='fab fa-instagram'></i>
                       <span>Instagram</span>
                     </a>
                   </li>
                   <li>
-                    <a href='/'>
+                    <a href='https://github.com/GABE400?tab=repositories'>
                       <i className='fab fa-github'></i>
                       <span>Github</span>
                     </a>

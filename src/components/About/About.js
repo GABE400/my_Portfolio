@@ -16,12 +16,15 @@ const About = () => {
           Developer & <span>Designer</span>
         </h5>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industrys standard dummy text ever
-          since the, when an unknown printer took a galley of type and scrambled
-          it to make a type specimen book. It has survived not only five
-          centuries, but also the leap into electronic typesetting, remaining
-          essentially unchanged.
+          Thank you for visiting my portfolio, my name is Gabriel Chipaya. I am
+          a full stack developer. The reason why i chose to take this career
+          path as a developer is basically the love of being in a creative space
+          and that is known as my hobby. However, i am into design especially
+          web design, i can work with UX/UI designs and graphic designs too. But
+          my main area is being a developer/programmer well that comes down to
+          the reason why I am called a fullstack. I have a computing greenwhich
+          degree with honours, I went to a tier 1 university. The university of
+          ZCAS collaborates with the university of greenwhich.
         </p>
         <Link
           className='button'
