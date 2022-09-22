@@ -78,7 +78,7 @@ const Header = () => {
                   <li>
                     <a href='/'>
                       <i className='fa fa-download'></i>
-                      <span>My CV</span>
+                      <span>Resume</span>
                     </a>
                   </li>
                 </ul>

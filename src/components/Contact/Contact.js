@@ -47,7 +47,7 @@ const Contact = () => {
         </div>
       </div>
       <button className='btnCv' type='submit' value='Submit'>
-        Download CV
+        Download Resume
       </button>
       <ScrollToTop smooth top='20' />
     </section>
