@@ -20,11 +20,12 @@ const About = () => {
           a full stack developer. The reason why i chose to take this career
           path as a developer is basically the love of being in a creative space
           and that is known as my hobby. However, i am into design especially
-          web design, i can work with UX/UI designs and graphic designs too. But
-          my main area is being a developer/programmer well that comes down to
-          the reason why I am called a fullstack. I have a computing greenwhich
-          degree with honours, I went to a tier 1 university. The university of
-          ZCAS collaborates with the university of greenwhich.
+          web design, i am open to work with UX/UI designs and graphic designs
+          too. But my main area is being a full stack developer that is flexible
+          with the frontend and backend. I love solving problems with
+          technology, I have a computing greenwhich degree with honours, I went
+          to a tier 1 university. The university of ZCAS collaborates with the
+          university of greenwhich.
         </p>
         <Link
           className='button'

@@ -32,10 +32,9 @@ const Header = () => {
                 </h1>
                 <p>
                   I am a full stack developer. This means in development of a
-                  Website, Progressive Web App, Web Application, Desktop
-                  Application and Mobile Application. I can work with the
-                  frontend or the backend or i can work with both. Find out more
-                  about me..
+                  Website, Progressive Web App, Web App, Desktop App and Mobile
+                  App. I can work with the frontend or the backend or i can work
+                  with both. Find out more about me..
                 </p>
                 <Link
                   to='about'
