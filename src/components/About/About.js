@@ -13,19 +13,19 @@ const About = () => {
       <div className='about-me-text'>
         <h2>About Me</h2>
         <h5>
-          Developer & <span>Designer</span>
+          Fullstack <span>Developer</span>
         </h5>
         <p>
-          Thank you for visiting my portfolio, my name is Gabriel Chipaya. I am
-          a full stack developer. The reason why i chose to take this career
-          path as a developer is basically the love of being in a creative space
-          and that is known as my hobby. However, i am into design especially
-          web design, i am open to work with UX/UI designs and graphic designs
-          too. But my main area is being a full stack developer that is flexible
-          with the frontend and backend. I love solving problems with
-          technology, I have a computing greenwhich degree with honours, I went
-          to a tier 1 university. The university of ZCAS collaborates with the
-          university of greenwhich.
+          Thank you for visiting my portfolio. I am a full stack developer, my
+          name is Gabriel Chipaya. I will brief you on what made me to choose
+          this career path as a developer. Well, basically the love of being in
+          a creative space, and the ability to come up with your own ideas, and
+          working towards the actual ideas is what made me to go for it.
+          However, i am into design especially web design, i am open to work
+          with UX/UI designs and graphic designs too. But my main interest is
+          being a full stack developer, I want to be flexible with the frontend
+          and backend. Solving problems with technology is my goal and I have a
+          passion to learn and to get better in the tech industry.
         </p>
         <Link
           className='button'
@@ -36,7 +36,7 @@ const About = () => {
           duration={500}
           delay={1000}
         >
-          Read More
+          Scroll Down
         </Link>
       </div>
     </section>

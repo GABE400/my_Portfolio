@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import ScrollToTop from 'react-scroll-to-top';
+import { FaDownload } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -47,7 +48,7 @@ const Contact = () => {
         </div>
       </div>
       <button className='btnCv' type='submit' value='Submit'>
-        Download Resume
+        Download Resume <br></br> <FaDownload />
       </button>
       <ScrollToTop smooth top='20' />
     </section>
