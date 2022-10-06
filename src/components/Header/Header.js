@@ -30,12 +30,8 @@ const Header = () => {
                     />
                   </span>
                 </h1>
-                <p>
-                  I am a full stack developer. This means in development of a
-                  Website, Progressive Web App, Web App, Desktop App and Mobile
-                  App. I can work with the frontend or the backend or i can work
-                  with both. Find out more about me..
-                </p>
+                <h3> I Am A Fullstack Developer </h3>
+
                 <Link
                   to='about'
                   spy={true}
@@ -43,10 +39,12 @@ const Header = () => {
                   offset={50}
                   duration={500}
                   delay={1000}
-                  className='btnClick'
+                  className='scroll-icon ex-1'
                 >
-                  <li>Get Started</li>
+                  <div className='mouse'></div>
                 </Link>
+
+                <p>Scroll Down</p>
               </div>
               <div className='socialMedia'>
                 <ul>

@@ -14,7 +14,7 @@ import { Link } from 'react-scroll';
 const Experience = () => {
   return (
     <section className='experience' id='experience'>
-      <h1>Skills</h1>
+      <h1>Experience</h1>
       <h2>Programming Languages</h2>
       <div className='services-container'>
         <div className='imgTech'>
