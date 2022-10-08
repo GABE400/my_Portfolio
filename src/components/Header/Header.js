@@ -30,7 +30,7 @@ const Header = () => {
                     />
                   </span>
                 </h1>
-                <h3> I Am A Software Developer </h3>
+                <h3> I Am a Software Developer </h3>
 
                 <Link
                   to='about'
