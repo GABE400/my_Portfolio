@@ -8,11 +8,7 @@ const Contact = () => {
     <section className='contact' id='contact'>
       <div className='contact-box'>
         <p className='title'>Hire Me</p>
-        <p className='text'>
-          Get in touch with me if you want to hire me in your company. I am also
-          a freelancer, get in touch with me if you need a Website, Web App or
-          Mobile App. Let us connect.
-        </p>
+        <p className='text'>Let us talk, get in touch.</p>
         <div className='container-contact'>
           <div className='info'>
             <div className='location'>
