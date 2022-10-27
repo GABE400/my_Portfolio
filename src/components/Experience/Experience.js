@@ -15,7 +15,10 @@ const Experience = () => {
   return (
     <section className='experience' id='experience'>
       <h1>Experience</h1>
-      <h2>Programming Languages</h2>
+      <h2>
+        Proficient with the programming languages,<br></br> libraries and
+        frameworks below
+      </h2>
       <div className='services-container'>
         <div className='imgTech'>
           <img src={OnePng} alt='css' />
