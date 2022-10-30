@@ -5,6 +5,7 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import { BrowserRouter } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
+import Projects from './components/ProjectSection/Projects';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <About />
         <Experience />
+        <Projects />
         <Contact />
         <Footer />
       </div>

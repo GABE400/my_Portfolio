@@ -51,14 +51,14 @@ const Experience = () => {
 
       <Link
         className='button'
-        to='contact'
+        to='projects'
         spy={true}
         smooth={true}
         offset={50}
         duration={500}
         delay={1000}
       >
-        Hire Me
+        My Projects
       </Link>
     </section>
   );

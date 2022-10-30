@@ -67,9 +67,9 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <a href='/'>
-                      <i className='fab fa-whatsapp'></i>
-                      <span>Whatsapp</span>
+                    <a href='https://www.linkedin.com/in/gabriel-chipaya-3526b0251/'>
+                      <i className='fa-brands fa-linkedin-in'></i>
+                      <span>LinkedIn</span>
                     </a>
                   </li>
                   <li>
