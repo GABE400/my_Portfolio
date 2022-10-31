@@ -2,51 +2,12 @@
   height: auto;
   background: #ffffff;
   width: 100%;
-  padding: 10rem 0;
+  padding: 2rem 0;
 }
 
 .projects .container {
   text-align: center;
-  padding: 80px;
-}
-
-.allItems {
-  display: flex;
-  gap: 3rem;
-  margin-top: 5rem;
-}
-
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-container {
-  padding-top: 8rem;
-  max-width: 100%;
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-  position: absolute;
-  height: 50px;
-  width: 50px;
-  background-color: #333;
-  z-index: 10;
-  right: 60px;
-  top: 0;
-  transform: translateY(50%);
-  color: gray;
-  border-radius: 8px;
-}
-
-.swiper-button-next {
-  right: 0;
-}
-
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  font-size: 2rem;
+  padding: 150px;
 }
 .projects .button {
   display: inline-block;
@@ -74,16 +35,20 @@
 .projects p {
   color: #333;
   font-size: 2rem;
+  margin-top: 0;
+  padding-top: 0;
 }
 .projects h2 {
-  color: #333;
-  font-size: 6rem;
   margin-top: 0.5rem;
   text-transform: uppercase;
+  color: #c31432;
+  font-size: 75px;
+  margin-bottom: 5px;
+  text-shadow: 6px 5px 5px #c0c0c0;
 }
 .projectItemImg {
   width: 100%;
-  height: 400px;
+  height: 350px;
   overflow: hidden;
   border-radius: 12px;
   display: inline-block;
@@ -96,19 +61,27 @@
 
 .projectName_info {
   margin-top: 1rem;
-  background-color: #ffffff;
+  background-color: #ffc234;
   padding: 1rem;
   border-radius: 12px;
+  margin-bottom: 1rem;
 }
 
 .projectTitle {
   font-size: 2.2rem;
+  color: var(--color-blue);
+  text-shadow: 1px 1px 1px black;
 }
-.projectItem_desc {
-  font-size: 1.6rem;
+.projectItem_desc p {
+  font-size: 1.2rem;
   margin-top: 1rem;
+  color: rgb(54, 69, 79);
 }
-@media only screen and (max-width: 500px) {
+
+@media only screen and (max-width: 640px) {
+  .projects .container {
+    padding: 30px;
+  }
   .projects p {
     font-size: 1.2rem;
   }
@@ -117,6 +90,23 @@
   }
 
   .projectItemImg {
-    height: 35px;
+    height: 100%;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .projects .container {
+    padding: 30px;
+  }
+  .projects p {
+    font-size: 1.2rem;
+  }
+  .projects h2 {
+    font-size: 3.6rem;
+  }
+
+  .projectItemImg {
+    height: 100%;
+    width: 100%;
   }
 }

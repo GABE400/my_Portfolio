@@ -62,7 +62,37 @@
   transform: translateY(-8px);
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 640px) {
+  /* For mobile phones: */
+  .About {
+    grid-template-columns: 1fr;
+  }
+
+  .about-img {
+    text-align: center;
+    margin: 30px;
+  }
+
+  .about-img img {
+    text-align: center;
+    margin-bottom: 30px;
+    height: auto;
+  }
+
+  .about-me-text .button {
+    margin-bottom: 30px;
+  }
+
+  .about-me-text {
+    padding: 30px;
+  }
+
+  .about-me-text .button {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .About {
     grid-template-columns: 1fr;

@@ -268,8 +268,38 @@ span {
   color: #fff;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 640px) {
   /* For mobile phones: */
+  .row {
+    display: block;
+  }
+
+  .column-right {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .column-left {
+    width: 100%;
+    box-sizing: border-box;
+    display: none;
+  }
+
+  .profileImages {
+    height: 63%;
+    display: none;
+  }
+
+  .socialMedia {
+    display: none;
+  }
+
+  .details .btnClick {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Tablet: */
   .row {
     display: block;
   }
